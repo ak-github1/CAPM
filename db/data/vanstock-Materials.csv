@@ -1,0 +1,7 @@
+MaterialNumber,MaterialDescription,MaterialType,BaseUnit,Plant,Status
+PART-A-1001,Hydraulic Pump Assembly,ROH,EA,1000,A
+PART-B-2002,Control Valve Kit,ROH,EA,1000,A
+PART-C-3003,Sensor Module Type-3,HALB,EA,1000,A
+PART-D-4004,Cable Harness 5m,ROH,EA,1000,A
+PART-E-5005,Filter Cartridge,ROH,EA,1000,A
+PART-OLD-99,Legacy Bracket (Obsolete),ROH,EA,1000,I

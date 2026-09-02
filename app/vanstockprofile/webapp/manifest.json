@@ -1,0 +1,188 @@
+{
+  "_version": "1.86.0",
+  "sap.app": {
+    "id": "com.vanstockprofile",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "description": "UploadLog Page",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:lrop",
+      "version": "1.31.1",
+      "toolsId": "b288c440-9203-474d-9fa2-23bc299f32a3"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/odata/v4/van-stock-profile/",
+        "type": "OData",
+        "settings": {
+          "annotations": [],
+          "odataVersion": "4.0"
+        }
+      }
+    },
+    "title": "UploadLog"
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.151.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.fe.templates": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "com.vanstockprofile.i18n.i18n"
+        }
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "operationMode": "Server",
+          "autoExpandSelect": true,
+          "earlyRequests": true
+        }
+      },
+      "@i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "uri": "i18n/i18n.properties"
+      }
+    },
+    "resources": {
+      "css": []
+    },
+    "routing": {
+      "config": {},
+      "routes": [
+        {
+          "pattern": ":?query:",
+          "name": "VanStockProfileList",
+          "target": "VanStockProfileList"
+        },
+        {
+          "pattern": "VanStockProfile({key}):?query:",
+          "name": "VanStockProfileObjectPage",
+          "target": "VanStockProfileObjectPage"
+        },
+        {
+          "pattern": "UploadLog:?query:",
+          "name": "UploadLogList",
+          "target": "UploadLogList"
+        }
+      ],
+      "targets": {
+        "VanStockProfileList": {
+          "type": "Component",
+          "id": "VanStockProfileList",
+          "name": "sap.fe.templates.ListReport",
+          "options": {
+            "settings": {
+              "contextPath": "/VanStockProfile",
+              "variantManagement": "Page",
+              "navigation": {
+                "VanStockProfile": {
+                  "detail": {
+                    "route": "VanStockProfileObjectPage"
+                  }
+                }
+              },
+              "controlConfiguration": {
+                "@com.sap.vocabularies.UI.v1.LineItem": {
+                  "tableSettings": {
+                    "type": "GridTable"
+                  },
+                  "actions": {
+                    "VanStockProfileList": {
+                      "press": "com.vanstockprofile.ext.controller.VanStockProfileList.uploadProfile",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": false,
+                      "text": "Upload Profile"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "VanStockProfileObjectPage": {
+          "type": "Component",
+          "id": "VanStockProfileObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "editableHeaderContent": false,
+              "contextPath": "/VanStockProfile"
+            }
+          }
+        },
+        "UploadLogList": {
+          "type": "Component",
+          "id": "UploadLogList",
+          "name": "sap.fe.templates.ListReport",
+          "options": {
+            "settings": {
+              "contextPath": "/UploadLog",
+              "variantManagement": "Page",
+              "initialLoad": "Enabled",
+              "controlConfiguration": {
+                "@com.sap.vocabularies.UI.v1.LineItem": {
+                  "tableSettings": {
+                    "type": "GridTable"
+                  },
+                  "actions": {
+                    "PostProfiles": {
+                      "press": "com.vanstockprofile.ext.controller.UploadLogList.postProfiles",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": true,
+                      "text": "Post to Main Table"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "sap.fiori": {
+    "registrationIds": [],
+    "archeType": "transactional"
+  },
+  "sap.fe": {
+    "app": {
+      "enableLazyLoading": true
+    }
+  }
+}

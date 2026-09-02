@@ -1,0 +1,7 @@
+ProfitCenter,ControllingArea,Name,Description,CompanyCode,ValidFrom,ValidTo,Status
+PC1001,1000,Engineering North,Engineering - North Region,1000,2020-01-01,9999-12-31,A
+PC1002,1000,Engineering South,Engineering - South Region,1000,2020-01-01,9999-12-31,A
+PC1003,1000,Field Service,Field Service Operations,1000,2020-01-01,9999-12-31,A
+PC1004,1000,Warehouse Ops,Central Warehouse Operations,1000,2020-01-01,9999-12-31,A
+PC1005,1000,Fleet Maintenance,Vehicle Fleet Maintenance,1000,2020-01-01,9999-12-31,A
+PC1099,1000,Discontinued Center,Old Center - Not In Use,1000,2015-01-01,2023-12-31,I
