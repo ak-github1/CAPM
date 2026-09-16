@@ -1,4 +1,5 @@
 using VanStockProfile as service from '../../srv/vanstock-service';
+
 annotate service.VanStockProfile with @(
     UI.FieldGroup #GeneratedGroup : {
         $Type : 'UI.FieldGroupType',
@@ -71,4 +72,3 @@ annotate service.VanStockProfile with @(
         },
     ],
 );
-

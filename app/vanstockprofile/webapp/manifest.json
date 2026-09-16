@@ -127,6 +127,13 @@
                       "enabled": true,
                       "requiresSelection": false,
                       "text": "Upload Profile"
+                    },
+                    "UploadProfileViaProcedure": {
+                      "press": "com.vanstockprofile.ext.controller.VanStockProfileList.uploadProfileViaProcedure",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": false,
+                      "text": "Upload Profile (HANA Procedure)"
                     }
                   }
                 }
@@ -157,14 +164,15 @@
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
-                    "type": "GridTable"
+                    "type": "GridTable",
+                    "selectionLimit": 0
                   },
                   "actions": {
                     "PostProfiles": {
                       "press": "com.vanstockprofile.ext.controller.UploadLogList.postProfiles",
-                      "visible": true,
+                      "visible": false,
                       "enabled": true,
-                      "requiresSelection": true,
+                      "requiresSelection": false,
                       "text": "Post to Main Table"
                     }
                   }

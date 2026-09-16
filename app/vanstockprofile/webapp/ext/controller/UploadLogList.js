@@ -7,15 +7,6 @@ sap.ui.define([
     return {
         postProfiles: function (oContext, aSelectedContexts) {
 
-            if (!aSelectedContexts || aSelectedContexts.length === 0) {
-                MessageToast.show("Please select at least one row to post");
-                return;
-            }
-
-            var aLogIds = aSelectedContexts.map(function (oCtx) {
-                return oCtx.getObject().ID;
-            });
-
             var oModel = null;
             sap.ui.core.Component.registry.forEach(function (oComp) {
                 if (!oModel && oComp.getModel && oComp.getModel()) {
@@ -28,8 +19,9 @@ sap.ui.define([
                 return;
             }
 
-            var oOperation = oModel.bindContext("/postProfiles(...)");
-            oOperation.setParameter("logIds", aLogIds);
+            var oOperation = oModel.bindContext("/postAllProfiles(...)");
+
+            MessageToast.show("Posting all unposted successful rows, please wait...");
 
             oOperation.execute().then(function () {
                 var oResult = oOperation.getBoundContext().getObject();
