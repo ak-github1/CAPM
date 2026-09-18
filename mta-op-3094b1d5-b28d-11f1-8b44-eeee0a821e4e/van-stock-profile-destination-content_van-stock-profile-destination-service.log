@@ -1,0 +1,2 @@
+#2026 09 17 11:45:17.439#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-destination-content_van-stock-profile-destination-service#flowable-async-job-executor-thread-5475#
+[SynchronousContentDeployStep] [van-stock-profile-destination-content] [ERROR] Missing destination property [ServiceInstanceName] in destination van_stock_profile_srv_api#

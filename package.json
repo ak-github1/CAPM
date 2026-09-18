@@ -2,10 +2,12 @@
   "name": "van-stock-profile",
   "version": "1.0.0",
   "dependencies": {
-    "@cap-js/hana": "^2",
-    "@sap/cds": "^9",
-    "exceljs": "^4.4.0"
-  },
+  "@cap-js/hana": "^2",
+  "@sap/cds": "^9",
+  "@sap/xssec": "^4",
+  "exceljs": "^4.4.0"
+},
+  
   "devDependencies": {
     "@cap-js/sqlite": "^2.4",
     "@sap/cds-dk": "^9",

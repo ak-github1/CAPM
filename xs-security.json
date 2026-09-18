@@ -1,6 +1,23 @@
 {
+  "xsappname": "van-stock-profile",
+  "tenant-mode": "dedicated",
   "description": "Security profile of called application",
-  "scopes": [],
+  "scopes": [
+    { "name": "$XSAPPNAME.Uploader", "description": "Upload and edit van stock profiles" },
+    { "name": "$XSAPPNAME.Viewer",   "description": "Display van stock profiles" },
+    { "name": "uaa.user", "description": "UAA" }
+  ],
   "attributes": [],
-  "role-templates": []
+  "role-templates": [
+    { "name": "Uploader", "description": "Uploader",
+      "scope-references": [ "$XSAPPNAME.Uploader", "$XSAPPNAME.Viewer", "uaa.user" ] },
+    { "name": "Viewer", "description": "Viewer",
+      "scope-references": [ "$XSAPPNAME.Viewer", "uaa.user" ] }
+  ],
+  "role-collections": [
+    { "name": "VanStockProfile_Uploader", "description": "Upload and edit",
+      "role-template-references": [ "$XSAPPNAME.Uploader" ] },
+    { "name": "VanStockProfile_Viewer", "description": "Display only",
+      "role-template-references": [ "$XSAPPNAME.Viewer" ] }
+  ]
 }

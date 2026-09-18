@@ -1,0 +1,37 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:u="sap.ui.unified">
+
+    <Dialog
+        id="excelUploadDialog"
+        title="Upload Excel"
+        contentWidth="500px">
+
+        <content>
+            <VBox class="sapUiSmallMargin">
+                <u:FileUploader
+                    id="excelFileUploader"
+                    fileType="xlsx"
+                    placeholder="Choose Excel file..."
+                    change=".onFileChange" />
+
+                <RadioButtonGroup id="uploadModeGroup" columns="1" class="sapUiSmallMarginTop">
+                    <RadioButton id="chunkModeRadio" text="Upload in chunks" selected="true" />
+                    <RadioButton id="noChunkModeRadio" text="Upload entire file in one request" />
+               <RadioButton id="fullStreamModeRadio" text="Upload entire file and stream process" />
+                </RadioButtonGroup>
+            </VBox>
+        </content>
+
+        <beginButton>
+            <Button id="uploadButton" text="Upload" type="Emphasized" press=".onUpload" />
+        </beginButton>
+
+        <endButton>
+            <Button id="cancelButton" text="Cancel" press=".onCancel" />
+        </endButton>
+
+    </Dialog>
+
+</core:FragmentDefinition>

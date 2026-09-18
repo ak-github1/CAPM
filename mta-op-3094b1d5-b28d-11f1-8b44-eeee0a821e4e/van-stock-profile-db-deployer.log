@@ -1,0 +1,452 @@
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:14.247597] Updated app with guid 920120e1-b670-449e-a1e5-cc3bde789221 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:14.337486] Updating process: "web" (STDOUT, API)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:28.765255] Uploading app package for app with guid 920120e1-b670-449e-a1e5-cc3bde789221 (STDOUT, API)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:28.939758] Updated app with guid 920120e1-b670-449e-a1e5-cc3bde789221 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:38.850691] Creating build for app with guid 920120e1-b670-449e-a1e5-cc3bde789221 (STDOUT, API)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:39.284274] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:39.323217] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:39.323309] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:40.151494] Security group rules were updated (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:40.216741] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:41.614377] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:41.614389] Downloading app package... (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:41.701113] Downloaded build artifacts cache (221B) (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:42.055692] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:42.206576] -----> Nodejs Buildpack version 1.9.4 (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:42.300697] -----> Bootstrapping python (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:42.300727] -----> Installing python 3.13.15 (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:42.300749] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/6832464ec708e1392d482a6034aa2c94/python_3.13.15_linux_x64_cflinuxfs4_0c9cd9fd.tgz] (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740315] -----> Installing binaries (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740352] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740357] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740396] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740493] -----> Installing node 24.19.0 (STDOUT, STG)#
+#2026 09 17 11:45:48.838#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5492#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740643] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/cf9035c55d85610a9158faa009b7a7b5/node_24.19.0_linux_x64_cflinuxfs4_9ab26efa.tgz] (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.317511] Using default npm version: 11.17.0 (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.317549] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.317641] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.683527] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.683555] -----> Creating runtime environment (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685208] NODE_ENV=production (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685293] NODE_HOME=/tmp/contents169960442/deps/0/node (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685306] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685308] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685311] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685317] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685385] -----> Building dependencies (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685396] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685399] Rebuilding any native modules (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.349134] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.351297] npm notice (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.351316] npm notice New major version of npm available! 11.17.0 -> 12.0.2 (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.351321] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.351323] npm notice To update run: npm install -g npm@12.0.2 (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.351329] npm notice (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.428034] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.922901] up to date in 404ms (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.923277] 4 packages are looking for funding (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.923499] run `npm fund` for details (STDOUT, STG)#
+#2026 09 17 11:45:58.742#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5494#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:52.001267] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:01.759723] Exit status 0 (STDOUT, STG)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:01.759791] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:01.759867] Uploading droplet... (STDOUT, STG)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:01.759871] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:01.784820] Uploaded build artifacts cache (223B) (STDOUT, STG)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:02.717298] Creating droplet for app with guid 920120e1-b670-449e-a1e5-cc3bde789221 (STDOUT, API)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:04.787129] Uploaded droplet (59.3M) (STDOUT, STG)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:04.828582] Uploading complete (STDOUT, STG)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:05.494125] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, STG)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:05.494165] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, STG)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:05.546784] Staging complete for build a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, API)#
+#2026 09 17 11:46:08.794#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5499#
+[PollStageAppStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:07.591723] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:14.247597] Updated app with guid 920120e1-b670-449e-a1e5-cc3bde789221 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:14.337486] Updating process: "web" (STDOUT, API)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:28.765255] Uploading app package for app with guid 920120e1-b670-449e-a1e5-cc3bde789221 (STDOUT, API)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:28.939758] Updated app with guid 920120e1-b670-449e-a1e5-cc3bde789221 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:38.850691] Creating build for app with guid 920120e1-b670-449e-a1e5-cc3bde789221 (STDOUT, API)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:39.284274] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:39.323217] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:39.323309] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:40.151494] Security group rules were updated (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:40.216741] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:41.614377] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:41.614389] Downloading app package... (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:41.701113] Downloaded build artifacts cache (221B) (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:42.055692] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:42.206576] -----> Nodejs Buildpack version 1.9.4 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:42.300697] -----> Bootstrapping python (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:42.300727] -----> Installing python 3.13.15 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:42.300749] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/6832464ec708e1392d482a6034aa2c94/python_3.13.15_linux_x64_cflinuxfs4_0c9cd9fd.tgz] (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740315] -----> Installing binaries (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740352] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740357] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740396] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740493] -----> Installing node 24.19.0 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:46.740643] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/cf9035c55d85610a9158faa009b7a7b5/node_24.19.0_linux_x64_cflinuxfs4_9ab26efa.tgz] (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.317511] Using default npm version: 11.17.0 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.317549] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.317641] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.683527] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.683555] -----> Creating runtime environment (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685208] NODE_ENV=production (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685293] NODE_HOME=/tmp/contents169960442/deps/0/node (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685306] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685308] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685311] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685317] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685385] -----> Building dependencies (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685396] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:49.685399] Rebuilding any native modules (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.349134] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.351297] npm notice (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.351316] npm notice New major version of npm available! 11.17.0 -> 12.0.2 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.351321] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.351323] npm notice To update run: npm install -g npm@12.0.2 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.351329] npm notice (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.428034] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.922901] up to date in 404ms (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.923277] 4 packages are looking for funding (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:50.923499] run `npm fund` for details (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:45:52.001267] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:01.759723] Exit status 0 (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:01.759791] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:01.759867] Uploading droplet... (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:01.759871] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:01.784820] Uploaded build artifacts cache (223B) (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:02.717298] Creating droplet for app with guid 920120e1-b670-449e-a1e5-cc3bde789221 (STDOUT, API)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:04.787129] Uploaded droplet (59.3M) (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:04.828582] Uploading complete (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:05.494125] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:05.494165] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:05.546784] Staging complete for build a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, API)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:07.591723] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance a4d8c9f2-15be-4d4f-9966-6a9712f8ed4a (STDOUT, STG)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:08.862663] Updated app with guid 920120e1-b670-449e-a1e5-cc3bde789221 ({:droplet_guid=>"7a97ecae-263f-4d80-a5b8-46858eb24270"}) (STDOUT, API)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:09.443359] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 5c2c7d95-38d0-41e3-9e43-da5032dc548c (STDOUT, CELL)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:10.284568] Security group rules were updated (STDOUT, CELL)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:10.346747] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 5c2c7d95-38d0-41e3-9e43-da5032dc548c (STDOUT, CELL)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:16.457087] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:16.676701] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.131367] > start (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.131435] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.298585] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299270] { (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299286] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299289] { (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299293] "name": "van-stock-profile-db", (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299296] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299300] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299304] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299307] "schema": "F2E4BD0080FB43B6B6BDD9006F7A7F80", (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299312] "database_id": "32eca79b-6883-4edd-a6e6-f06535bf1357", (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299315] "user": "F2E4BD0080FB43B6B6BDD9006F7A7F80_4IMOGGM7FRCH0GZSNUUE1C97S_RT", (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299318] "hdi_user": "F2E4BD0080FB43B6B6BDD9006F7A7F80_4IMOGGM7FRCH0GZSNUUE1C97S_DT" (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299320] }, (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299322] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299324] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299326] "database", (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299329] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299332] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299334] } (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299336] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.299338] } (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.783474] @sap/hdi-deploy, version 5.7.0 (mode default), server version 4.00.000.00.1787043349 (4.0.0.0), cloud version 2026.14.16, node version 24.19.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.783648] Deployment started at 2026-09-17 11:46:17 (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.783735] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.801947] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.802364] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.807554] Collecting files... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.807648] 3 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.807701] 16 files collected (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.807790] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:17.807837] Target service: van-stock-profile-db (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.050901] Previous build with request ID 451 finished at 2026-09-17T11:39:22.026 with status Rolled back and message: Starting make in the container "F2E4BD0080FB43B6B6BDD9006F7A7F80" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.050953] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.051266] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.051465] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.051525] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.054179] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.054529] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.054644] Connecting to the container "F2E4BD0080FB43B6B6BDD9006F7A7F80"... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.129514] Connecting to the container "F2E4BD0080FB43B6B6BDD9006F7A7F80"... ok (0s 75ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.129592] Locking the container "F2E4BD0080FB43B6B6BDD9006F7A7F80"... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.274397] Locking the container "F2E4BD0080FB43B6B6BDD9006F7A7F80"... ok (0s 145ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.274507] Synchronizing files with the container "F2E4BD0080FB43B6B6BDD9006F7A7F80"... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.478896] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.628750] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.628882] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:18.917#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-4761#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.629897] Writing 3 items (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.790046] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.790420] Synchronizing files with the container "F2E4BD0080FB43B6B6BDD9006F7A7F80"... ok (0s 516ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.790485] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.790579] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.790621] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.790826] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.791450] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.791459] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.791462] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:18.791465] Deploying to the container "F2E4BD0080FB43B6B6BDD9006F7A7F80"... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071006] Starting make in the container "F2E4BD0080FB43B6B6BDD9006F7A7F80" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071037] Disabling table replication for the container schema "F2E4BD0080FB43B6B6BDD9006F7A7F80"... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071042] Disabling table replication for the container schema "F2E4BD0080FB43B6B6BDD9006F7A7F80"... ok (0s 10ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071046] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071053] Migrating libraries... ok (0s 12ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071057] Making... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071069] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071071] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071371] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071506] Preparing the make transaction... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071623] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071727] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071808] Expanding... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071900] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.071942] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.072012] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.072046] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.072115] Calculating dependencies... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.072139] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.072141] Making... ok (0s 42ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.072146] Enabling table replication for the container schema "F2E4BD0080FB43B6B6BDD9006F7A7F80"... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.072149] Enabling table replication for the container schema "F2E4BD0080FB43B6B6BDD9006F7A7F80"... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.072152] Starting make in the container "F2E4BD0080FB43B6B6BDD9006F7A7F80" with 0 files to deploy, 0 files to undeploy... ok (0s 81ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.072483] Deploying to the container "F2E4BD0080FB43B6B6BDD9006F7A7F80"... ok (0s 281ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.072718] No default-access-role handling needed; global role "F2E4BD0080FB43B6B6BDD9006F7A7F80::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.073424] Unlocking the container "F2E4BD0080FB43B6B6BDD9006F7A7F80"... (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.073888] Unlocking the container "F2E4BD0080FB43B6B6BDD9006F7A7F80"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.074051] Deployment to container F2E4BD0080FB43B6B6BDD9006F7A7F80 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.074567] Deployment ended at 2026-09-17 11:46:19 (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.074952] (1s 894ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.093548] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.093617] npm notice New major version of npm available! 11.17.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.093621] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.093625] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.093632] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.160856] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.523218] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 5c2c7d95-38d0-41e3-9e43-da5032dc548c (STDOUT, CELL)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:19.523262] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 5c2c7d95-38d0-41e3-9e43-da5032dc548c (STDOUT, CELL)#
+#2026 09 17 11:46:28.948#Z#DEBUG#3094b1d5-b28d-11f1-8b44-eeee0a821e4e.van-stock-profile-db-deployer#flowable-async-job-executor-thread-5516#
+[PollExecuteTaskStatusExecution] 920120e1-b670-449e-a1e5-cc3bde789221 [2026-09-17T11:46:21.703066] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 5c2c7d95-38d0-41e3-9e43-da5032dc548c (STDOUT, CELL)#

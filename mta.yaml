@@ -8,6 +8,7 @@ modules:
   path: gen/srv
   requires:
   - name: van-stock-profile-db
+  - name: van-stock-profile-auth
   provides:
   - name: srv-api
     properties:
@@ -48,12 +49,22 @@ modules:
     - npm install
     - npm run build:cf
     supported-platforms: []
+    no-source: true
 resources:
 - name: van-stock-profile-db
   type: com.sap.xs.hdi-container
   parameters:
     service: hana
     service-plan: hdi-shared
+- name: van-stock-profile-auth
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: xsuaa
+    service-plan: application
+    path: ./xs-security.json
+    config:
+      xsappname: van-stock-profile-${org}-${space}
+      tenant-mode: dedicated
 - name: van-stock-profile-repo-host
   type: org.cloudfoundry.managed-service
   parameters:
@@ -64,14 +75,13 @@ resources:
   type: org.cloudfoundry.managed-service
   parameters:
     config:
-      HTML5Runtime_enabled: false
+      HTML5Runtime_enabled: true
       init_data:
         instance:
           destinations:
           - Authentication: NoAuthentication
             Name: ui5
             ProxyType: Internet
-            Type: HTTP
             URL: https://ui5.sap.com
           existing_destinations_policy: update
       version: 1.0.0
